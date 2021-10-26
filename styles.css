@@ -20,6 +20,11 @@ body {
   --color-dark-blue: hsl(228, 56%, 26%);
   --color-very-dark-blue: hsl(229, 57%, 11%);
 }
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
 /* Background */
 .background {
   position: absolute;
@@ -63,13 +68,18 @@ body {
 .box-one {
   margin: 1rem;
   background-color: var(--color-dark-blue);
-  padding: 3rem 10rem 3rem 2rem;
+  padding: 3rem 12rem 3rem 2rem;
   border-radius: 0% 29% 4% 4% / 10% 34% 3% 3%;
 }
 .logo {
   width: 12rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   margin-left: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 15rem;
+  }
 }
 .files {
   display: flex;
@@ -153,9 +163,9 @@ body {
     width: 0;
     height: 0;
     border-top: 0px solid transparent;
-    border-right: 13px solid #fff;
+    border-right: 22px solid #fff;
     border-bottom: 25px solid transparent;
-    bottom: -36%;
+    bottom: -33%;
     right: 0%;
   }
 }
