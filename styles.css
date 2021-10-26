@@ -122,10 +122,10 @@ body {
   width: 100%;
   border-radius: 10px;
   background-color: var(--color-very-dark-blue);
-  padding: 0.3rem;
+  padding: 1.2rem;
 }
 .slider {
-  outline: none;
+  background-color: var(--color-gradient);
   border-radius: 10px;
   width: 75%;
 }
@@ -165,7 +165,7 @@ body {
     border-top: 0px solid transparent;
     border-right: 22px solid #fff;
     border-bottom: 25px solid transparent;
-    bottom: -33%;
+    bottom: -30%;
     right: 0%;
   }
 }
